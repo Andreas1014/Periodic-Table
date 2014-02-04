@@ -1,0 +1,61 @@
+.colspan
+{
+	border: 0px solid black;
+}
+
+.rowspan
+{
+	border: 0px solid black;
+}
+
+.alkali
+{
+	background-color: #bfbfbf;
+}
+
+.alkaline
+{
+	background-color: #80c980;
+}
+ .transitional
+ {
+ 	background-color: #feff7f;
+ }
+
+.nonmetal
+{
+	background-color: #80cee2;
+}
+
+.other
+{
+	background-color: #f99bcd;
+}
+
+.nobelgases
+{
+	background-color: #fdc091;
+}
+
+.lRed
+{
+	color: red;
+}
+
+.lWhite
+{
+	color: white;
+	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.lBlue
+{
+	color: blue;
+}
+
+th 
+{
+	border: 1px solid darkorange;
+	font-family: Verdana, Arial, sans-serif; 
+	*border-collapse: collapse;
+}
