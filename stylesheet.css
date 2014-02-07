@@ -1,61 +1,118 @@
 .colspan
 {
-	border: 0px solid black;
+	border: 0px solid black;  /*make white cells, spacing*/
 }
 
-.rowspan
+.rowspan     /*space between bottom section*/
 {
 	border: 0px solid black;
 }
 
-.alkali
+.alkali     /*set alkali background color*/
 {
 	background-color: #bfbfbf;
 }
 
-.alkaline
+.alkaline     /*set alkaline background color*/
 {
 	background-color: #80c980;
 }
- .transitional
- {
- 	background-color: #feff7f;
- }
 
-.nonmetal
+.transitional     /*set transitional background color*/
+{
+ 	background-color: #feff7f;
+}
+
+.tr2     /*set "dot" color to "transitional" color to make transparent*/
+{
+ 	color: #feff7f; 
+}
+
+.nonmetal     /*set nonmetal background color*/
 {
 	background-color: #80cee2;
 }
 
-.other
+.other     /*set other background color*/
 {
 	background-color: #f99bcd;
 }
 
-.nobelgases
+.o2     /*set "dot" color to "other" color to make transparent*/
+{
+	color: #f99bcd;
+}
+
+.nobelgases     /*set nobelgases background color*/
 {
 	background-color: #fdc091;
 }
 
-.lRed
+.ng2     /*set "dot" color to "nobelgases" color to make transparent*/
+{
+	color: #fdc091;
+}
+
+.lRed     /*make specific letter red*/
 {
 	color: red;
 }
 
-.lWhite
+.lWhite     /*make specific letter white with a border*/
 {
 	color: white;
-	text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+	text-shadow: -1.5px 0 black, 0 1.5px black, 1.5px 0 black, 0 -1.5px black;
 }
 
-.lBlue
+.lBlue     /*make specific letter blue*/
 {
 	color: blue;
 }
 
-th 
+.atomicNr     /*set atomic number position and size*/
+{
+	text-align: left;
+	float: left;
+	margin-top: -5px;
+	font-size: 11px;
+}
+
+.atomicWt     /*set atomic weight position and size*/
+{
+	text-align: right;
+	float: right;
+	margin-top: -5px;
+	font-size: 9px;
+}
+
+.name     /*set atomic fullname, position and size*/
+{
+	text-align: center;
+	float: center;
+	margin-top: -11px;
+	font-size: 10.5px;
+}
+
+th     /*set border, border color and size to all "th"*/   
 {
 	border: 1px solid darkorange;
 	font-family: Verdana, Arial, sans-serif; 
 	*border-collapse: collapse;
+	width: 70px;
+	height: 90px;
+	font-size: 20px;
+}
+
+table     /*put the periodic-table in the middle*/
+{
+	text-align:center; 
+    margin-left:auto; 
+    margin-right:auto;
+}
+
+#title     /*set tital font, position and size*/
+{
+	font-family: Edwardian Script ITC;
+	text-align: center;
+	font-size: 350%;
 }
